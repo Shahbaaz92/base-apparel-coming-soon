@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #fafafa;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main {
+  background: linear-gradient(150deg, #fff 0%, #fff4f4 100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: flex-start;
+  padding: 20px 150px;
+}
+.logo {
+  width: 115.593px;
+  height: 31.502px;
+  flex-shrink: 0;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+.text h1 {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #423a3a;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 71px;
+  letter-spacing: 17.321px;
+}
+.text h1 span {
+  color: #ce9898;
+  font-weight: 300;
+  line-height: 64px;
+}
+.text p {
+  color: #ce9898;
+  font-size: 16px;
+  line-height: 28px;
+}
+form {
+  display: flex;
+  align-items: center;
+  height: 56px;
+}
+.email {
+  width: 80%;
+  padding: 5px 10px;
+  border-radius: 28px;
+  border: 1px solid #ce9898;
+  opacity: 0.5;
+  color: #423a3a;
+  font-size: 16px;
+  font-family: Josefin Sans;
+  line-height: 28px;
+}
+.email:focus,
+.email:active {
+  outline: none;
+}
+.email::placeholder {
+  color: #ce9898;
+  opacity: 0.5;
+}
+.button {
+  /* width: 100px; */
+  /* height: 56px; */
+  position: relative;
+  padding: 12px 30px;
+  margin-left: -67px;
+  border: none;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: linear-gradient(#f8bfbf, #ee8b8b);
+  color: #ffffff;
+  z-index: 2;
+  box-shadow: 1px 5px 10px grey;
+}
+.button:focus,
+.button:hover,
+.button:active {
+  opacity: 0.8;
+}
+.right-container {
+  width: 40%;
+}
+
+.img {
+  width: 100%;
+  height: 100vh;
+}
